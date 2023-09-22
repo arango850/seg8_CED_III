@@ -1,0 +1,3 @@
+producto "Leche" 2 unidades 1.5 # Leche descremada
+    servicio "Limpieza" 5 unidades 10.0 # Servicio de limpieza semanal
+    producto "Manzanas" 3 unidades 2.0 # Manzanas frescas

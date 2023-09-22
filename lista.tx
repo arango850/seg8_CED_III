@@ -1,0 +1,18 @@
+DomainModel:
+    items*=Item;
+
+Item:
+    type=ItemType
+    name=STRING
+    quantity=Quantity
+    price=FLOAT
+    comments*=COMMENT;
+
+ItemType:
+    "producto" | "servicio";
+
+Quantity:
+    (weight=FLOAT "kg" | count=INT "unidades");
+
+COMMENT:
+    /#.*$/;
